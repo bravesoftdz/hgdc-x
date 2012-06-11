@@ -1,0 +1,10 @@
+hgdcx for Debian
+----------------
+
+This is a feature complete HGD GUI client, including SSL encryption, written in Lazarus, and is designed to target Linux (GTK or QT), Mac OS X (Carbon) and Windows (Win32 or QT). Other targets, for example FreeBSD are possible but untested.
+
+It will build with no additional libraries (except for synapse, which is statically linked and included in the source tree), with Lazarus 0.9.30 or later.
+
+
+
+

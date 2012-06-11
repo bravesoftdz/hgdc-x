@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=HGD-X Client
+Comment=Client for Hackathon Gunther Daemon music player project
+TryExec=hgdcx
+Exec=hgdcx
+Icon=hgdcx
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Sound;
+

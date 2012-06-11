@@ -1,0 +1,29 @@
+To build Ubuntu debian package
+
+This example we build version 0.5.3 for Ubuntu Precise
+
+Edit the file hgdc-x/debian/changelog
+
+Adding:
+
+hgdcx (0.5.3-1ubuntu1~precise) precise; urgency=low
+
+  * Update release
+
+ -- Shaun Simpson <shauns2029@gmail.com>  Mon, 11 Jun 2011 22:03:08 +0000
+ 
+
+Copy hgdc-x to hgdcx-0.5.3
+Compress hgdcx-0.5.3 to hgdcx_0.5.3.orig.tar.gz
+
+i.e. Directory contains
+hgdc-x
+hgdcx-0.5.3
+hgdcx_0.5.3.orig.tar.gz
+
+To build source packages
+cd hgdcx-0.5.0/
+debuild -S
+
+To upload to launchpad for building
+dput ppa:shauns/hgd hgdcx_0.5.3-1ubuntu11~precise_source.changes

@@ -1,0 +1,20 @@
+INSTALL?=install
+
+# paths
+DESTDIR?=/usr
+bindir?=/bin
+
+.PHONY: all
+all:
+	lazbuild --build-all hgdcx.lpi
+
+.PHONY: clean
+clean:
+	rm -f -R build
+	rm -f -R lib
+
+.PHONY: install
+install: 
+	${INSTALL} -d ${DESTDIR}${bindir}
+	${INSTALL} build/release/hgdcx ${DESTDIR}${bindir}
+

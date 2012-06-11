@@ -1,0 +1,17 @@
+Source: hgdcx
+Section: sound
+Priority: extra
+Maintainer: Shaun Simpson <shauns2029@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, fpc, lazarus, libgtk2.0-dev, lcl-utils, fp-utils, curl, wget, lynx-cur, fpc-source, lcl, libgtk2.0-bin, x-ttcidfont-conf, xml-core
+Standards-Version: 3.9.2
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/hgdcx.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/hgdcx.git;a=summary
+
+Package: hgdcx
+Architecture: any
+Depends: libssl0.9.8, libgtk2.0-0, libgtk2.0-bin
+Description: hgdc-x is a cross-platform desktop client for HGD.
+ hgdc-x is a cross-platform desktop client for 
+ the Hackathon Gunther Daemon music player project.
+

@@ -1,0 +1,36 @@
+Description: Upstream changes introduced in version 0.5.0-1ubuntu10~lucid
+ This patch has been created by dpkg-source during the package build.
+ Here's the last changelog entry, hopefully it gives details on why
+ those changes were made:
+ .
+ hgdcx (0.5.0-1ubuntu10~lucid) lucid; urgency=low
+ .
+   * Initial release
+ .
+ The person named in the Author field signed this changelog entry.
+Author: Shaun Simpson <shauns2029@gmail.com>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: http://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: <YYYY-MM-DD>
+
+--- hgdcx-0.5.0.orig/hgdcx.lpi
++++ hgdcx-0.5.0/hgdcx.lpi
+@@ -33,7 +33,7 @@
+         <CompilerOptions>
+           <Version Value="9"/>
+           <Target>
+-            <Filename Value="build/release/$(TargetCPU)-$(TargetOS)-$(LCLWidgetType)/hgdcx"/>
++            <Filename Value="build/release/hgdcx"/>
+           </Target>
+           <SearchPaths>
+             <IncludeFiles Value="$(ProjOutDir)"/>
