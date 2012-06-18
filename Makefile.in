@@ -6,7 +6,7 @@ bindir?=/bin
 
 .PHONY: all
 all:
-	lazbuild --build-all hgdcx.lpi
+	lazbuild --build-all --build-mode="Release Debian" hgdcx.lpi
 
 .PHONY: clean
 clean:

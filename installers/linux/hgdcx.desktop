@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=HGD-X Client
+Name=Hgd-X Client
 Comment=Client for Hackathon Gunther Daemon music player project
 TryExec=hgdcx
 Exec=hgdcx
