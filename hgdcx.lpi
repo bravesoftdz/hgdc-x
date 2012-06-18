@@ -8,7 +8,7 @@
       </Flags>
       <SessionStorage Value="InProjectDir"/>
       <MainUnit Value="0"/>
-      <Title Value="hgdc-x"/>
+      <Title Value="Hgdc-X"/>
       <ResourceType Value="res"/>
       <UseXPManifest Value="True"/>
       <XPManifest>
@@ -23,9 +23,9 @@
       <UseVersionInfo Value="True"/>
       <AutoIncrementBuild Value="True"/>
       <MinorVersionNr Value="5"/>
-      <RevisionNr Value="3"/>
+      <RevisionNr Value="4"/>
       <Language Value="0809"/>
-      <StringTable CompanyName="Tristan Linnell" FileDescription="GUI client for the Hackathon Gunther Daemon" LegalCopyright="2012 Tristan Linnell" ProductName="hgdc-x" ProductVersion="0.5.3"/>
+      <StringTable CompanyName="Tristan Linnell" FileDescription="GUI client for the Hackathon Gunther Daemon" LegalCopyright="2012 Tristan Linnell" ProductName="Hgdc-X" ProductVersion="0.5.4"/>
     </VersionInfo>
     <BuildModes Count="5">
       <Item1 Name="Debug" Default="True"/>
@@ -299,4 +299,4 @@
       </Item5>
     </Exceptions>
   </Debugging>
-</CONFIG>
+</CONFIG>

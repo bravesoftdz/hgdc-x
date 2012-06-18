@@ -6,15 +6,15 @@
 ; Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{8CD9F65F-46EC-4E1E-925C-980B347DF657}
-AppName=hgdc-x
-AppVersion=0.5.3
-AppVerName=hgdc-x 0.5.3
+AppName=Hgdc-X
+AppVersion=0.5.4
+AppVerName=Hgdc-X 0.5.4
 AppPublisher=Tristan Linnell
 AppPublisherURL=https://github.com/tristan2468/hgdc-x
 AppSupportURL=https://github.com/tristan2468/hgdc-x
 AppUpdatesURL=https://github.com/tristan2468/hgdc-x
-DefaultDirName={pf}\hgdc-x
-DefaultGroupName=hgdc-x
+DefaultDirName={pf}\Hgdc-X
+DefaultGroupName=hgdc-X
 DisableProgramGroupPage=yes
 LicenseFile=..\..\..\hgdc-x\COPYING
 OutputBaseFilename=hgdc-x_setup
@@ -35,10 +35,10 @@ Source: "..\..\build\release\i386-win32-win32\libssl32.dll"; DestDir: "{app}"; F
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
-Name: "{group}\hgdc-x"; Filename: "{app}\hgdcx.exe"
-Name: "{commondesktop}\hgdc-x"; Filename: "{app}\hgdcx.exe"; Tasks: desktopicon
+Name: "{group}\Hgdc-X"; Filename: "{app}\hgdcx.exe"
+Name: "{commondesktop}\Hgdc-X"; Filename: "{app}\hgdcx.exe"; Tasks: desktopicon
 Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\hgdc-x"; Filename: "{app}\hgdcx.exe"; Tasks: quicklaunchicon
 
 [Run]
-Filename: "{app}\hgdcx.exe"; Description: "{cm:LaunchProgram,hgdc-x}"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\hgdcx.exe"; Description: "{cm:LaunchProgram,Hgdc-X}"; Flags: nowait postinstall skipifsilent
 
